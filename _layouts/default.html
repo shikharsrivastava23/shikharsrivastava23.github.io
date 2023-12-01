@@ -1,7 +1,8 @@
 <html>
   <head>
   <!-- other head elements -->
-  <link rel="stylesheet" href="../style/main.css">
+  <link rel="stylesheet" href="{{ '/style/main.css' | prepend: site.baseurl }}"
+    
 </head>
 <body>
   {{ content }}
